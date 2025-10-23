@@ -1,0 +1,49 @@
+# IMPORTANT: This repo is PUBLIC - ONLY Tonic API modifications
+# DO NOT commit plugins, personal configs, or full project files
+
+# Allow ONLY these Tonic API files
+!src/main/java/com/tonic/**/*.java
+!api/src/main/java/com/tonic/**/*.java
+
+# Block everything else
+/*
+/*/
+/*/*
+
+# Unblock specific API directories
+!src/
+!src/main/
+!src/main/java/
+!src/main/java/com/
+!src/main/java/com/tonic/
+
+!api/
+!api/src/
+!api/src/main/
+!api/src/main/java/
+!api/src/main/java/com/
+!api/src/main/java/com/tonic/
+
+# Block all other directories
+/plugins/
+/base-api/
+/gradle/
+/.idea/
+/build/
+/.claudenav
+/CURRENT_STATUS.md
+*.txt
+*.bat
+*.sh
+*.py
+*.log
+*.zip
+*.jar
+*.png
+*.jpg
+*.json
+/nul
+
+# Allow README and .gitignore
+!README.md
+!.gitignore
